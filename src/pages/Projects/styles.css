@@ -1,0 +1,230 @@
+#root {
+  overflow-x: hidden;
+}
+h1 {
+  font-size: xxx-large;
+}
+.projects-presentation {
+  width: 100vw;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+.illustration-telas {
+  height: 230px;
+  width: 100%;
+}
+.illustration-mulher {
+  width: 100%;
+  height: 230px;
+  transform: translate(-220px, 30px)
+}
+.projects {
+  padding: 0 35px;
+}
+.projects-text {
+  font-size: larger;
+}
+.page-1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.page-1 .col {
+  flex: 50%;
+  max-width: 50%;
+}
+.page-1 .projects-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-1 .illustration {
+  position: relative;
+}
+.page-1 .illustration .illustration-mulher {
+  position: absolute;
+  left: -15px;
+  top: 30px;
+}
+.page-2 {
+  margin-top: 100px;
+}
+.page-2 .illustration {
+  position: relative;
+}
+.illustration-homem {
+  margin-left: 60px;
+  float: left;
+  height: 250px;
+}
+/* Floating balls */
+.balls {
+  animation: fade-in-up 1s;
+}
+#ball_1 {
+  height: 80px;
+  animation: bounce_1 12s linear infinite;
+  transition: all ease-in-out;
+  margin-right: 30px;
+  opacity: 0.4;
+}
+#ball_2 {
+  height: 100px;
+  animation: bounce_2 15s linear infinite;
+  transition: all ease-in-out;
+  margin-right: 45px;
+  opacity: 0.4;
+}
+#ball_3 {
+  height: 60px;
+  animation: bounce_3 15s linear infinite;
+  transition: all ease-in-out;
+  opacity: 0.7;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+#project-1,
+#project-3 {
+  margin-bottom: 100px;
+}
+#project-1 {
+  box-sizing: border-box;
+  justify-content: center;
+  width: 100%;
+}
+#project-1 img.image-1 {
+  height: 400px;
+  margin-left: 0;
+}
+#project-1 img.image-2 {
+  height: 360px;
+  margin-top: -150px;
+  margin-left: 50px;
+}
+
+#project-2 {
+  position: static;
+  margin-bottom: 20px;
+}
+#project-2 .image-1 {
+  height: 400px;
+  margin-left: 8rem;
+}
+#project-2 .image-2 {
+  height: 400px;
+}
+
+#project-3 img.image-1 {
+  height: 400px;
+  margin-left: 100px;
+}
+#project-3 img.image-2 {
+  height: 400px;
+  margin-left: 100px;
+  margin-top: -150px;
+}
+#project-3 img.image-1 {
+  height: 350px;
+}
+
+#project-4 {
+  margin-bottom: 100px;
+}
+#project-4 img.image-1 {
+  height: 400px;
+  margin-left: 0px;
+}
+#project-4 img.image-2 {
+  height: 400px;
+  margin-left: 100px;
+  margin-top: -150px;
+}
+#project-4 img.image-1 {
+  height: 350px;
+}
+#project-4 .mockup-stack-2 {
+  margin-top: -100px;
+}
+#project-4 .mockup-stack-2 .image-1 {
+  position: absolute;
+  height: 400px;
+}
+#project-4 .mockup-stack-2 .image-1 #gota {
+  animation: gota 1.3s ease infinite;
+}
+#project-4 .mockup-stack-2 .image-1.gif {
+  height: 151px;
+  margin: 14px 0 0 201px;
+}
+
+#project-5 img.image-1 {
+  max-height: 370px;
+  border: 5px solid #a3a3a3;
+}
+
+#project-6 img.image-1 {
+  max-height: 370px;
+}
+
+#project-7 img.image-1 {
+  height: 370px;
+  width: 200px;
+}
+
+a.contate {
+  background-color: #9b42f5;
+  color: #f4f4f4;
+  padding: 15px 32px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  transition: filter .6s ease;
+}
+a.contate:hover {
+  filter: brightness(120%);
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 800px) {
+}
+
+/* animations */
+
+@keyframes bounce_1 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-75px);
+  }
+}
+@keyframes bounce_2 {
+  0%,
+  100% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(180px);
+  }
+}
+@keyframes bounce_3 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-105px);
+  }
+}
