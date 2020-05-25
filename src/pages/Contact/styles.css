@@ -1,6 +1,11 @@
 .text-center {
   text-align: center;
 }
+.form {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+}
 form {
   display: flex;
   align-items: center;
@@ -24,11 +29,11 @@ textarea {
   outline: none;
   background-color: whitesmoke;
   box-sizing: border-box;
-  transition: border-color .4s ease;
+  transition: border-color 0.4s ease;
 }
 .form-group input:focus,
 textarea:focus {
-    border-color: #919bf6;
+  border-color: #919bf6;
 }
 #contact-form button {
   width: 400px;
@@ -45,16 +50,35 @@ textarea:focus {
   transition: filter 0.6s ease;
 }
 #contact-form button:hover {
-    filter: brightness(130%);
+  filter: brightness(130%);
 }
 .contacts {
-    margin-top: 25px;
-    display: flex;
-    width: 400px;
-    flex-direction: column;
-    font-size: large;
+  margin-top: 25px;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  font-size: large;
 }
 .contacts div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .form-group {
+    width: 95vw;
+  }
+  .form-group input,
+  textarea {
+    width: 100%;
+  }
+  #contact-form button {
+    width: 95vw;
+  }
+  .contacts {
+    width: 95vw;
+  }
+  .contact-illustration {
+    display: none;
+  }
 }

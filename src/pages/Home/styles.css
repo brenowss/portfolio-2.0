@@ -125,4 +125,14 @@ a.ver-mais {
   .socials {
     text-align: center;
   }
+  .conhecimento {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) { 
+  .tecnologia {
+    width: 150px;
+  }
 }

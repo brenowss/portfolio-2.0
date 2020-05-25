@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="container">
           <h1 className="text-center">Entre em contato</h1>
           <div className="row">
-            <div className="col-6" style={{ display: "flex", alignItems: "center", flexDirection: "column" }}>
+            <div className="col-6 form">
               <form id="contact-form" netlify="true">
                 <div className="form-group">
                   <label htmlFor="name">Nome:</label>
@@ -24,7 +24,7 @@ export default function Contact() {
                 </div>
                 <div className="form-group">
                   <label htmlFor="email">Email:</label>
-                  <input name="email" ref={register({ pattern: /^\S+@\S+[\.][0-9a-z]+$/ })} type="email" />
+                  <input name="email" ref={register({ required: true })} type="email" />
                   {errors.email && "Digite um email válido"}
                 </div>
                 <div className="form-group">
@@ -36,11 +36,11 @@ export default function Contact() {
               <div className="contacts">
                 <div style={{ marginBottom: 10 }}><FaEnvelope style={{ marginRight: 10 }} color="#6e24b8" /> brenofiorese01@gmail.com</div>
                 <div style={{ marginBottom: 10 }}><FaPhone style={{ marginRight: 10 }} color="#6e24b8" /> (54)9 8432-3766</div>
-                <div style={{ marginBottom: 10 }}><FaGithub style={{ marginRight: 10 }} color="#6e24b8" /> <a href="https://github.com/brenowss" target="blank">brenowss</a> </div>
-                <div style={{ marginBottom: 10 }}><FaLinkedinIn style={{ marginRight: 10 }} color="#6e24b8" /> <a href="https://www.linkedin.com/in/breno-fiorese/" target="blank">Breno Fiorese</a> </div>
+                <div style={{ marginBottom: 10 }}><FaGithub style={{ marginRight: 10 }} color="#6e24b8" /> <a href="https://github.com/brenowss" target="blank" rel="noopener noreferrer">brenowss</a> </div>
+                <div style={{ marginBottom: 10 }}><FaLinkedinIn style={{ marginRight: 10 }} color="#6e24b8" /> <a href="https://www.linkedin.com/in/breno-fiorese/" target="blank" rel="noopener noreferrer">Breno Fiorese</a> </div>
               </div>
             </div>
-            <div className="col-6"><img src="https://tontasid.sirv.com/Images/contact.svg" alt="contact me" /></div>
+            <div className="col-6 contact-illustration"><img src="https://tontasid.sirv.com/Images/contact.svg" alt="contact me" /></div>
           </div>
         </div>
       </FadeIn>

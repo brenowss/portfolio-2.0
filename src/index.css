@@ -22,13 +22,14 @@ body {
 @media screen and (max-width: 800px) {
   .row {
     box-sizing: border-box !important;
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .row .col-6 { 
-    flex: 1;
-    width: 100%;
+    flex: 1 !important;
+    max-width: 100% !important;
   }
   .justify-content-center {
     display: flex !important;
+    align-items: center;
   }
 }

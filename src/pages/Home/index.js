@@ -29,7 +29,7 @@ export default function Home() {
                     <h1 className="typed"> </h1>
                     <h4 className="text-center">Sobre Mim</h4>
                     <div className="card-apresentacao row">
-                        <div className="align-right col-6">
+                        <div className="text-center col-6">
                             <picture>
                                 <img
                                     src="https://tontasid.sirv.com/Images/perfil.png"
@@ -63,11 +63,11 @@ export default function Home() {
                 </p>
                                 <a
                                     href="https://www.linkedin.com/in/breno-fiorese/"
-                                    target="_blank"
+                                    target="blank" rel="noopener noreferrer"
                                 ><FaLinkedinIn /></a>
-                                <a href="https://github.com/brenowss" target="_blank"
+                                <a href="https://github.com/brenowss" target="blank" rel="noopener noreferrer"
                                 ><FaGithub /></a>
-                                <a href="https://www.facebook.com/brenowss" target="_blank"
+                                <a href="https://www.facebook.com/brenowss" target="blank" rel="noopener noreferrer"
                                 ><FaFacebookF /></a>
                             </div>
                         </div>

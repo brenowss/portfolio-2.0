@@ -146,11 +146,11 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className="container" id="project-5">
-                            <div className="row block-parent">
+                            <div className="row">
                                 <div className="col-6">
                                     <h2>Be The Hero</h2>
                                     <p className="text-justify">
-                                        Esse é um projeto que foi desenvolvido durante o bootcamp Omnistack 11 da Rocketseat🚀.
+                                        Esse é um projeto que foi desenvolvido durante o bootcamp Omnistack 11 da Rocketseat <span role="img" aria-label="rocket emoji">🚀</span>.
                                         Foi o maior degrau que subi no meu conhecimento de React, React Native e Node!
                                 </p>
                                 </div>
@@ -160,10 +160,10 @@ export default function Projects() {
                             </div>
 
                             <div className="row block-parent">
-                                <div className="col-6 justify-content-center">
+                                <div className="col-6 justify-content-center block-1">
                                     <img src="https://tontasid.sirv.com/Images/project_5-2.gif" alt="projeto" className="image-2" />
                                 </div>
-                                <div className="col-6">
+                                <div className="col-6 block-2">
                                     <h2 className="align-right">Be The Hero</h2>
                                     <p className="text-justify">
                                         Esse é o app desenvolvido com React Native! A função dele é listar todos os casos disponíveis para doar, que utiliza da mesma API desenvolvida com Node.
@@ -186,10 +186,10 @@ export default function Projects() {
                         </div>
                         <div className="container" id="project-7">
                             <div className="row block-parent">
-                                <div className="col-6 justify-content-center">
+                                <div className="col-6 justify-content-center block-1">
                                     <img src="https://tontasid.sirv.com/Images/project_7.png" alt="projeto" className="image-1" />
                                 </div>
-                                <div className="col-6">
+                                <div className="col-6 block-2">
                                     <h2 className="align-right">Clone Spotify</h2>
                                     <p className="text-justify">
                                         Esse projeto foi desenvolvido em um bootcamp, utilizando React no front-end e Ruby on Rails no back-end.

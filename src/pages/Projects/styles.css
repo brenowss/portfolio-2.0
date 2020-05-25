@@ -13,11 +13,6 @@ h1 {
   height: 230px;
   width: 100%;
 }
-.illustration-mulher {
-  width: 100%;
-  height: 230px;
-  transform: translate(-220px, 30px)
-}
 .projects {
   padding: 0 35px;
 }
@@ -45,6 +40,9 @@ h1 {
   position: absolute;
   left: -15px;
   top: 30px;
+  width: 100%;
+  height: 230px;
+  transform: translate(-220px, 30px)
 }
 .page-2 {
   margin-top: 100px;
@@ -197,6 +195,147 @@ a.contate:hover {
 /* responsiveness */
 
 @media screen and (max-width: 800px) {
+  .align-right, h2 {
+    text-align: center !important;
+  }
+  .page-1 .illustration .illustration-mulher {
+    transform: translate(-140px, 60px);
+    left: 0;
+  }
+  .balls {
+    display: none;
+  }
+  .projects {
+    padding: 0;
+  }
+  .projects-text {
+    text-align: center;
+  }
+  .projects * {
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+  }
+  .projects-presentation {
+    margin-bottom: 25px;
+  }
+  #project-1 img.image-1 {
+    height: 250px;
+  }
+  #project-1 .block-parent {
+    display: flex;
+    flex-direction: column;
+  }
+  #project-1 .block-1 {
+    order: 2;
+  }
+  #project-1 .block-2 {
+    order: 1;
+  }
+  #project-1 img.image-2 {
+    padding: 20px;
+    margin: 0;
+    height: 290px;
+  }
+  #project-2 {
+    margin-top: -70px;
+    margin-bottom: 0;
+  }
+  #project-2 .block-parent {
+    display: flex;
+    flex-direction: column;
+  }
+  #project-2 .block-1 {
+    order: 2;
+  }
+  #project-2 .image-1 {
+    margin-left: 0;
+    height: 250px;
+  }
+  #project-2 .image-2 {
+    height: 300px;
+    text-align: center !important;
+  }
+  #project-2 .block-2 {
+    order: 1;
+  }
+  #project-2 h2.align-right {
+    text-align: center;
+  }
+  #project-3 {
+    margin-bottom: 20px;
+  }
+  #project-3 .block-parent {
+    display: flex;
+    flex-direction: column;
+  }
+  #project-3 .block-1 {
+    order: 2;
+  }
+  #project-3 .block-2 {
+    margin-top: 0;
+    order: 1;
+  }
+  #project-3 h2.align-right {
+    text-align: center;
+  }
+  #project-3 img.image-1 {
+    height: 280px;
+    margin: 0;
+  }
+  #project-3 img.image-2 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #project-4 {
+    margin-bottom: 0;
+  }
+  #project-4 .mockup-stack-2 {
+    margin-top: 0;
+  }
+  #project-4 svg.image-1 {
+    display: none;
+  }
+  #project-4 .mockup-stack-2 .image-1.gif {
+    margin-left: 0;
+    position: static;
+  }
+  #project-4 .block-parent {
+    display: flex;
+    flex-direction: column;
+  }
+  #project-4 .block-1 {
+    order: 2;
+  }
+  #project-4 .block-2 {
+    margin-top: 0;
+    order: 1;
+  }
+  #project-5 .block-parent {
+    display: flex;
+  }
+  #project-5 img.image-1 {
+    max-height: 300px;
+    width: 95%;
+    border: none;
+  }
+  #project-5 img.image-2 {
+    height: 320px;
+  }
+  #project-5 .block-parent .block-1 {
+    order: 2;
+  }
+  #project-5 .block-parent .block-2 {
+    order: 1;
+  }
+  #project-7 .block-parent {
+    display: flex;
+  }
+  #project-7 .block-parent .block-1 {
+    order: 2;
+  }
+  #project-7 .block-parent .block-2 {
+    order: 1;
+  }
 }
 
 /* animations */
