@@ -18,6 +18,7 @@ export default function Contact() {
           <div className="row">
             <div className="col-6 form">
               <form id="contact-form" data-netlify="true" data-netlify-honeypot="bot-field" name="contact-form">
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
                   <label htmlFor="name">Nome:</label>
                   <input name="name" ref={register({ required: true })} required type="text" />
