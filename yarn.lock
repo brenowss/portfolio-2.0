@@ -8577,11 +8577,6 @@ react-fade-in@^1.0.0:
   resolved "https://registry.yarnpkg.com/react-fade-in/-/react-fade-in-1.0.0.tgz#613039eb79ac965532a9fe643270d4ac14ba57ea"
   integrity sha512-FlB945gicE9gKWwEMXPiLHUPKZcacec2ALSh0FXaDkeTPmfGogLkVHqlK4PSOR7AFSTEKy/ixslcVhsIoIPPOQ==
 
-react-hook-form@^5.7.2:
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-5.7.2.tgz#a84e259e5d37dd30949af4f79c4dac31101b79ac"
-  integrity sha512-bJvY348vayIvEUmSK7Fvea/NgqbT2racA2IbnJz/aPlQ3GBtaTeDITH6rtCa6y++obZzG6E3Q8VuoXPir7QYUg==
-
 react-icons@^3.10.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.10.0.tgz#6c217a2dde2e8fa8d293210023914b123f317297"
