@@ -17,7 +17,7 @@ export default function Contact() {
           <h1 className="text-center">Entre em contato</h1>
           <div className="row">
             <div className="col-6 form">
-              <form id="contact-form" data-netlify="true" data-netlify-honeypot="bot-field" action="/">
+              <form id="contact-form" data-netlify="true" data-netlify-honeypot="bot-field" name="contact-form">
                 <div className="form-group">
                   <label htmlFor="name">Nome:</label>
                   <input name="name" ref={register({ required: true })} required type="text" />
