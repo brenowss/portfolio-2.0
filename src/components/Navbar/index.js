@@ -10,7 +10,7 @@ export default function Navbar() {
             <ul className="nav-list">
                 <li className="logo">breno.</li>
                 <li className="nav-item">
-                    <NavLink activeClassName="active" to="/home">Início</NavLink>
+                    <NavLink activeClassName="active" exact to="/">Início</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink activeClassName="active" to="/projects">Projetos</NavLink>
